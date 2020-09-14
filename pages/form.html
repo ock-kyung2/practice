@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form - Input</title>
-    <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../assets/css/form-styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../assets/css/form-styles.css" />
+  </head>
+  <body>
     <!-- 사용자로부터 인풋(input)을 받기 위한 태그
     <from action="API 주소" method="GET/POST"></from>
     사용자에게 인풋을 받고 처리할 logic이 있는 서버의 경로를 action에 넣는다.
@@ -16,6 +21,7 @@
     form안에 채울 다양한 필드Feild 태그
     <input type="text"/> ...입력창, 인풋 필드
     지켜야 할 문법!! type="email,text,tel 등등"을 꼭 명시해야 한다. -->
+
     <!--
         placehoder 입력창에 입력해야할 기본 정보를 보여줌 
         maxlength 입력할 정보의 글자수를 제한할때
@@ -25,33 +31,42 @@
         value 일정의 초기값
     -->
 
-<!-- 예제1 -->
-<form action="" method="GET">
-    <input type="text" placeholder="아이디를 입력하세요" minlength="5" maxlength="13" required/>
-    <input type="text" placeholder="이름을 입력하세요"/>
-    <button>submit</button>
-</form>
+    <!-- 예제1 -->
+    <form action="" method="GET">
+      <input
+        type="text"
+        placeholder="아이디를 입력하세요"
+        minlength="5"
+        maxlength="13"
+        required
+      />
+      <input type="text" placeholder="이름을 입력하세요" />
+      <button>submit</button>
+    </form>
 
-<!-- 예제2 -->
-<form action="" method="GET">
-    <input type="email" placeholder="이메일을 입력하세요"/>
-    <input type="password" placeholder="비밀번호를 입력하세요" minlength="6"/>
-    <input type="url" placeholder="포트폴리오 URL을 적으시오"/>
-    <button>submit</button>
-</form>
+    <!-- 예제2 -->
+    <form action="" method="GET">
+      <input type="email" placeholder="이메일을 입력하세요" />
+      <input
+        type="password"
+        placeholder="비밀번호를 입력하세요"
+        minlength="6"
+      />
+      <input type="url" placeholder="포트폴리오 URL을 적으시오" />
+      <button>submit</button>
+    </form>
 
-<!-- 예제3 -->
-<form action="" method="GET">
-    <input type="number" min="12" max="122" placeholder="나이를 입력하세요(12세 이상~122세 이하)"/>
-    <input type="file" accept=".png, .jpg"/>
-    <!-- 허용하는 파일의 확장자 accept 사용 -->
-    <button>submit</button>
-</form>
-
-
-
-    
-</body>
-</html>
-</body>
+    <!-- 예제3 -->
+    <form action="" method="GET">
+      <input
+        type="number"
+        min="12"
+        max="122"
+        placeholder="나이를 입력하세요(12세 이상~122세 이하)"
+      />
+      <input type="file" accept=".png, .jpg" />
+      <!-- 허용하는 파일의 확장자 accept 사용 -->
+      <button>submit</button>
+    </form>
+  </body>
 </html>
