@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Description List</title>
+  </head>
+  <body>
+    <!-- Description List 란?
+        1. 용의를 정의할때 
+        2. key-vlaue로 정보를 제공할때 {key:value} -->
+
+    <!-- 
+        <dl : Description List>
+            <dt : Description Term/key 값>
+                <dtf : 의미를 구체적으로 나타내고 싶을때 사용></dtf>
+            </dt>
+            <dd : Description Data/value 값></dd>
+        </dl> 
+    -->
+
+    <!-- dl,dt,dd의 맞는 문법
+    <dl>
+        <dt>김버그</dt>
+        <dd></dd>
+    </dl>
+
+    <dl>
+        <dt><dfn>development</dfn></dt>
+        <dd></dd>
+        <dd></dd>
+    </dl>
+
+    <dl>
+        <dt>김버그</dt>
+        <dt>Kimbug</dt>
+        <dd></dd>
+    </dl>
+
+    <dl>
+        <dt></dt>
+        <dd></dd>
+        <dd><a href=""></a></dd>
+    </dl>
+
+    <dl> ....div로 두개의 정의와 설명을 각각 묶어서 사용가능.
+        <div>
+            <dt>사과</dt>
+            <dd>사과에 대한 설명</dd>
+        </div>
+        <div>
+            <dt>바나나</dt>
+            <dd>바나나에 대한 설명</dd>
+        </div>
+    </dl>
+ -->
+
+    <!-- dl,dt,dd의 잘못된 사용
+
+    <dl> 
+        <dt>김버그</dt>
+        <dd>주니어 개발자의 성장 드라마를 다루는 유튜브 채널입니다.</dd>
+        <dt>데벨업</dt> ..... dt의 설명dd가 오고, 바로 다른 정의의 dt X
+    </dl>
+ 
+    <dl>
+        <section> ...sectionX
+            <dt></dt>
+            <dl></dl>
+        </section>
+    </dl> 
+
+    <dt></dt> 이나 <dd></dd>의 단독사용X
+ -->
+
+    <dl>
+      <dt><dfn>학습</dfn> 學習 [학씁]</dt>
+      <dd>1. noun 배워서 익힘</dd>
+      <dd>
+        2. noun 심리 경험의 결과로 나타나는,비교적 지속적인 행동의 변화나 그
+        잠재력의 변화. 또는 지식을 습득하는 과정
+      </dd>
+    </dl>
+
+    <dl>
+      <div>
+        <dt>Open</dt>
+        <dd>월요일, 화요일, 수요일, 목요일, 금요일</dd>
+      </div>
+      <div>
+        <dt>Close</dt>
+        <dd>토요일, 일요일, 공휴일</dd>
+      </div>
+    </dl>
+
+    <dl>
+      <div>
+        <dt>Username</dt>
+        <dd>김버그</dd>
+      </div>
+      <div>
+        <dt>Email</dt>
+        <dd>kimbugx@gmail.com</dd>
+      </div>
+      <div>
+        <dt>Passport #</dt>
+        <dd>M********</dd>
+      </div>
+      <div>
+        <dt>Nationality</dt>
+        <dd>Republic of Korea</dd>
+      </div>
+    </dl>
+  </body>
+</html>
