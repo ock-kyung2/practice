@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+</head>
+<body>
+  <!-- 
+    데이터를 담은 표을 만들때 사용
+    <기본원리>
+    가로 줄을 먼저 만들고 데이터 셀인지, 헤더 셀인지 적는다.
+    <table>
+      <tr table row>
+        <th>테이블 헤더</th>
+        <td>테이블 데이터</td>
+      </tr>
+    </table>
+  -->
+  <!-- thead, tbody // table 구조를 좀 더 명확하게 하기 위해 사용 -->
+  <!-- 합계 항목을 넣을때는 tfoot 사용하면된다. -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>이름</th>
+        <th>개발분야</th>
+        <th>기타</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>00001</td>
+        <td>옥진경</td>
+        <td>프론트엔드</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>0002</td>
+        <td>조수연</td>
+        <td>풀스텍</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
