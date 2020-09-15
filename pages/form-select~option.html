@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form-select&option</title>
+</head>
+<body>
+  <!-- 여러가지 선택하고 싶을때 select에 multiple을 적어준다-->
+  <!-- select에만 name을 기입하면 자식요소까지 적용. -->
+
+  <form action="" method="GET">
+    <label for="skills">스킬</label>
+    <select multiple name="skills" id="skills">
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="java">JavaScript</option>
+    </select>
+    <button type="submit">submit</button>
+  </form>
+</body>
+</html>
