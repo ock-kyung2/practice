@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breadcrumb & Pagination</title>
+    <link rel="stylesheet" href="../assets/css/breadcrumb_pagination.css" />
+  </head>
+  <body>
+    <!-- 
+      Breadcrumb 브라우저를 타고타고 들어갈 경우 링크를 나열해주는 것 
+      Pagination 1p 2p 3p...링크들의 종합
+    -->
+    <div class="breadcrumb">
+      <a href="https://github.com/rohjs">rohjs</a>
+      <a href="https://github.com/rohjs/bugless-101">bugless-101</a>
+    </div>
+
+    <!-- WAI-ARIA 웹의 접근성을 높여주는 api 
+      스크린 리더 이용자에게 좀 더 풍부한 정보를 제공하기 위해-->
+    <div class="pagination">
+      <a href="#" aria-label="Go to previous page" class="disabled">Previous</a>
+      <ol>
+        <li class="current-page">
+          <a href="#" aria-label="Current page Go to previous page 1">1</a>
+        </li>
+        <li><a href="#" aria-label="Go to previous page 2">2</a></li>
+        <li><a href="#" aria-label="Go to previous page 3">3</a></li>
+        <li><a href="#" aria-label="Go to previous page 4">4</a></li>
+        <li><button type="button" disabled></button></li>
+        <!-- disabled 사용할 수 없는 버튼 -->
+        <li><a href="#" aria-label="Go to previous page 5">5</a></li>
+        <li><a href="#" aria-label="Go to previous page 6">6</a></li>
+        <li><a href="#" aria-label="Go to previous page 7">7</a></li>
+      </ol>
+      <a href="#" aria-label="Go to next page 1">Next</a>
+    </div>
+  </body>
+</html>
